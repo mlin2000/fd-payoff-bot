@@ -1,0 +1,14 @@
+{
+  "name": "fd-payoff-bot",
+  "version": "1.0.0",
+  "description": "Freshdesk webhook that posts a private payoff draft and attaches the tokenized DOCX.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0"
+  }
+}
